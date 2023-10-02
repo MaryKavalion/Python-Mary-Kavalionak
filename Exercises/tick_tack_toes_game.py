@@ -54,10 +54,16 @@ def game_main():
         first_player = figure.players_choice()
         second_player = "o" if first_player == "X" else "X"
         for round in range (5):
+            # will be combimed into "move_it" function
             print (f"Round {round}. First player's turn. "),
             # working out the function to display the available fields with print () - see the "pieces"
+            # "print_the_field"
             fields = modify_the_field(fields, first_player)
-            print ("Second player's turn! ")
-            fields = modify_the_field(fields, second_player)
+            # "plot the field"
+            # check for "win"-conditions
+            # end of move-it function for the first player
+            # same for the second player
+            # print ("Second player's turn! ")
+            # ... and so on
             round+=1
         game = another_round.players_choice()
