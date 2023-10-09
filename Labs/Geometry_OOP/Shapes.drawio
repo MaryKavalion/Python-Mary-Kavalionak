@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T13:35:19.329Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="GF6m08B-efOOo5nQn4pY" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-09T13:55:38.238Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="WxG_wge4CSVUR8hMNsDe" version="22.0.4" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="1889" dy="1661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="17acba5748e5396b-1" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-110" y="-40" width="820" height="1060" as="geometry" />
+          <mxGeometry x="-110" y="-40" width="820" height="640" as="geometry" />
         </mxCell>
         <mxCell id="5d2195bd80daf111-18" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Rectangle&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;b&gt;&lt;i&gt;width&lt;/i&gt;&lt;/b&gt;: float&lt;br&gt;+ &lt;b&gt;&lt;i&gt;height&lt;/i&gt;&lt;/b&gt;: float&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;b&gt;&lt;i&gt;__repr__(): &lt;/i&gt;&lt;/b&gt;string&lt;br&gt;+ &lt;b&gt;&lt;i&gt;__str__(): &lt;/i&gt;&lt;/b&gt;string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;b&gt;&lt;i&gt;get_perimeter()&lt;/i&gt;&lt;/b&gt;: float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;b&gt;&lt;i&gt;get_area()&lt;/i&gt;&lt;/b&gt;: float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;b&gt;&lt;i&gt;is_square()&lt;/i&gt;&lt;/b&gt;: bool&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
           <mxGeometry y="360" width="200" height="170" as="geometry" />
