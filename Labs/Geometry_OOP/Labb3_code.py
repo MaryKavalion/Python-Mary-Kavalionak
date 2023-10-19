@@ -110,7 +110,7 @@ class Figure:
         """
         if field is None:
             f, ax = plt.subplots()
-            f.set_size_inches(4,6)
+            f.set_size_inches(6,6)
             if facecolor is not None:
                 f.set_facecolor(facecolor)
             else:
@@ -287,6 +287,7 @@ class Rectangle(Figure):
         
         
         ax.add_patch(picture)
+        plt.show()
         return f, ax
     
     def transfer_and_show(self, new_mid_x, new_mid_y, field = None, facecolor = 'm', indentation = 2, num_steps=4, lw=2, color='k'):
@@ -373,6 +374,7 @@ class Circle(Figure):
                                      color = color if color is not None else random.choice(self.colors), alpha = alpha)
         
         ax.add_patch(picture)
+        plt.show()
         return f, ax 
 
     def transfer_and_show(self, new_mid_x, new_mid_y, field = None, facecolor = 'm', indentation = 2, num_steps=4, lw=2, color='k'):
