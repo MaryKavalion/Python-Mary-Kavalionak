@@ -1,0 +1,10 @@
+from Labb3_code import *
+cirkle1 = Circle("01", 0, 0, radius = 100)
+cirkle2 = Circle("02", 1, 1, radius = 1)
+rektangle1 = Rectangle("A", 0, 0, 1, 2)
+#print (cirkle1 == cirkle2)
+#print (cirkle2==rektangle1)
+#print (cirkle1.is_in(0.5, 0.5))
+cirkle1.transfer(5,5)
+#print(cirkle1.is_in(0.5, 0.5))
+cirkle1.transfer(-50, 5)
