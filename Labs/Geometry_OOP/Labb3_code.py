@@ -44,7 +44,7 @@ class Figure:
     @mid_x.setter
     def mid_x(self, mid_x):
         if type (mid_x) != int:
-            raise PositiveNumberError()
+            raise TypeError("Must be numeric")
         else:
             self._mid_x = mid_x
 
@@ -55,7 +55,7 @@ class Figure:
     @mid_y.setter
     def mid_y(self, mid_y):
         if type (mid_y) != int:
-            raise PositiveNumberError()
+            raise TypeError("Must be numeric")
         else:
             self._mid_y = mid_y
 
